@@ -1,3 +1,5 @@
 # Brand-Ecommerce
 The design is gotten from figma community and implemented.
-![Design](./Thumbnail.png.png)
+![Design](./img/Thumbnail.png)
+
+## Welcome! 👋

@@ -178,7 +178,7 @@ header, .navbar {
     list-style: none;
     font-size: 1.4rem;
     color: #8B96A5;
-    margin-bottom: 1.8rem;
+    margin-bottom: 2.5rem;
 }
 .hero_item li:last-child {
     margin-bottom: 0;
@@ -254,6 +254,12 @@ header, .navbar {
     align-items: center;
 }
 
+.signup_text {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #555555;
+}
+
 .signup_btn {
     display: flex;
     justify-content: center;
@@ -278,8 +284,6 @@ header, .navbar {
     background-color: #0D6EFD;
 }
 
-
-
 .login {
     background-color: #DEE2E7;
     padding: 1rem 7rem; 
@@ -292,6 +296,14 @@ header, .navbar {
     margin-top: 1rem;
     background-color: #F38332;;
     padding: 2rem;
+}
+
+.signup_info h6 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #dbdada;
+    line-height: 2rem;
+    
 }
 
 

@@ -1,0 +1,164 @@
+/* colors
+dark: #1C1C1C
+
+GRAY SHADE
+gray:#505050
+light gray: #8B96A5
+lighter gray: #BDC4CD
+very light gray: #DEE2E7
+very very light gray: #EFF2F4
+last shade of gray: #F7FAFC
+
+WHITE SHADE
+shade of white: #E3F0FF
+
+PRIMARY: BLUE: #0D6EFD
+LIGHT GREEN: #C3FFCB
+GREEN: #00B517
+GOLD:#FFE5BF
+ORANGE: #FF9017
+RED: #FA3434
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #1c1c1c;
+    line-height: 1;
+    background-color: #dadada;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+
+/* HEADER AND NAVBAR */
+
+header, .navbar {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.header_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_icons {
+    display: flex;
+    align-items: center;
+    gap: 1;
+}
+
+.header_search {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header_search input {
+    padding: 1rem 7rem;
+    border-radius: 5rem;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.search_btn {
+    background-color: #0D6EFD;
+    padding: 1rem 2.5rem;
+    border-radius: 5rem;
+}
+
+.search_btn:hover {
+    background-color: #00B517;
+}
+
+.search_btn a{ 
+    color: #fff;
+    text-decoration: none;
+}
+.icons_profile {
+    display: flex;
+    margin: 0.7rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #8B96A5;
+    cursor: pointer;
+}
+
+.icon_text {
+    margin-top: 1rem;
+}
+
+.icons_profile:hover{
+    color: #FA3434;
+}
+
+.icons_profile:active {
+    color: #00B517;
+}
+
+/* NAVBAR */
+.navbar {
+    border: 1px solid #DEE2E7;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navbar1 {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.5rem;
+}
+
+
+
+.cartegory a,
+ .hot_offer a, 
+ .gift a, 
+ .project a, 
+ .menu a, 
+ .help a,
+ .opts a,
+ .opt2 a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.cartegory a:hover,
+ .hot_offer a:hover, 
+ .gift a:hover, 
+ .project a:hover, 
+ .menu a:hover, 
+ .help a:hover,
+ .opts a:hover,
+ .opt2 a:hover  {
+    color: #00B517;
+}
+
+.nod {
+   margin-left: 40rem;
+   display: flex;
+   gap: 1rem;
+}
+
+

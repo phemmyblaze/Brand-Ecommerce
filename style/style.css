@@ -164,7 +164,7 @@ header, .navbar {
 .hero-section {
     display: grid;
     grid-template-columns: 20fr 60fr 20fr;
-    align-items: center;
+    /* align-items: center; */
     background-color: #fff;
     margin: 1rem;
     padding: 1rem;
@@ -239,4 +239,59 @@ header, .navbar {
     text-decoration: none;
     font-size: 0.9rem;
 }
+
+.hero_other {
+    margin-left: 1rem;
+    /* display: flex; */
+}
+.hero_signup {
+    background-color: #E3F0FF;
+    padding: 2rem;
+}
+.signup_box{
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.signup_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.signup_btn a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.sign_up,
+.login { 
+    border-radius: 0.6rem;
+}
+
+.sign_up {
+    padding: 1rem 5.8rem;
+    background-color: #0D6EFD;
+}
+
+
+
+.login {
+    background-color: #DEE2E7;
+    padding: 1rem 7rem; 
+    color: #0D6EFD !important;
+   
+}
+
+
+.signup_info {
+    margin-top: 1rem;
+    background-color: #F38332;;
+    padding: 2rem;
+}
+
 

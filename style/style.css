@@ -73,8 +73,9 @@ header, .navbar {
 }
 
 .header_search input {
-    padding: 1rem 7rem;
-    border-radius: 5rem;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
     border: 1px solid #000;
     outline: none;
 }
@@ -82,7 +83,7 @@ header, .navbar {
 .search_btn {
     background-color: #0D6EFD;
     padding: 1rem 2.5rem;
-    border-radius: 5rem;
+    border-radius: 1rem;
 }
 
 .search_btn:hover {
@@ -237,7 +238,7 @@ header, .navbar {
 
 .hero_btn a {
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .hero_other {
@@ -302,8 +303,93 @@ header, .navbar {
     font-size: 1.5rem;
     font-weight: 400;
     color: #dbdada;
-    line-height: 2rem;
-    
+    line-height: 2rem;  
 }
+
+.info2{
+    background-color: #55BDC4;
+}
+
+.offers {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #9ea0a1;
+    border-right: 1px solid #9ea0a1;
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+
+.deal_timer {
+    padding: 2rem;
+}
+
+.deal_text h4 {
+    font-size: 1.6rem;
+    letter-spacing: 1;
+    color: #1C1C1C; 
+    font-weight: 400; 
+}
+
+.deal_text p {
+    color: #8B96A5;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.counter{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.days,
+.hours,
+.mins,
+.secs {
+    background-color: #606060;
+    padding: .5rem;
+    color: #fff;
+}
+
+.counter p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.counter span {
+    display: block;
+    text-align: center;
+}
+
+.item_list img{
+    width: 14rem;
+}
+
+.item_list {
+    text-align: center;
+    border-left: 1px solid #E0E0E0;
+    margin-left: 3.7rem;
+}
+
+.item_list p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #1C1C1C;
+}
+
+.item_list span {
+    display: inline-block;
+    background-color: #FFE3E3;
+    padding: .6rem;
+    border-radius: 2.9rem;
+    color: #EB001B;
+}
+
+
 
 

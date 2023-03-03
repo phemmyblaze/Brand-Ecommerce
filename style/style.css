@@ -310,7 +310,8 @@ header, .navbar {
     background-color: #55BDC4;
 }
 
-.offers {
+.offers,
+.home_items {
     background-color: #fff;
     padding: 1rem;
     margin: 1rem;
@@ -388,6 +389,60 @@ header, .navbar {
     padding: .6rem;
     border-radius: 2.9rem;
     color: #EB001B;
+}
+
+.home_items_details {
+    /* background-image: linear-gradient( to right, rgba(255, 255, 255, 0.753), url(../img/bg-images/home-bg.png)); */
+    background-image:
+    linear-gradient(0deg, rgba(255, 232, 186, 0.4), rgba(255, 232, 186, 0.4)),
+    url('../img/bg-images/home-bg.png');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 20rem;
+}
+
+.home_items_text {
+    color: #1C1C1C;
+    margin: 2rem 1rem;
+}
+
+.home_items_text h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 2.6rem;
+}
+
+.items_btn a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #1C1C1C;
+}
+
+.homes_item {
+    /* margin-left: 7rem; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 6rem;
+}
+
+.homes_item_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .homes_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+} */
+
+.homes_item_1 img {
+    width: 8.2rem;
 }
 
 

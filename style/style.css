@@ -21,7 +21,7 @@ RED: #FA3434
 
 
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -30,10 +30,10 @@ RED: #FA3434
 
 html {
     font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
     color: #1c1c1c;
     line-height: 1;
     background-color: #dadada;
@@ -404,6 +404,7 @@ header, .navbar {
     width: 20rem;
 }
 
+
 .home_items_text {
     color: #1C1C1C;
     margin: 2rem 1rem;
@@ -423,28 +424,65 @@ header, .navbar {
 }
 
 .homes_item {
-    /* margin-left: 7rem; */
+    margin-left: 3rem;
     display: flex;
-    /* flex-wrap: wrap; */
-    gap: 6rem;
-}
-
-.homes_item_1 {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 7rem;
 }
 
-/* .homes_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-} */
+.outdoor_details {
+   display: flex;
+   gap: 2rem;
+   
+}
+
+.homes_text {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.homes_text h6 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #1C1C1C;
+    text-transform: capitalize;
+}
+
+.homes_text p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #8B96A5;
+}
+
+
 
 .homes_item_1 img {
-    width: 8.2rem;
+    width: 7rem;
 }
 
+.item2 {
+    margin-top: 3rem;
+}
 
+.home_items_details2 {
+    background-image:
+    linear-gradient(0deg, rgba(255, 232, 186, 0.4), rgba(255, 232, 186, 0.4)),
+    url('../img/bg-images/consumer-bg.png');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 20rem;
+}
+
+.home_items_details2 h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 2.6rem;
+}
 
 
